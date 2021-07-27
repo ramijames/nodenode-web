@@ -1,16 +1,14 @@
 <template>
-  <div id="Home">
-    <BgVideo/>
+  <div id="About">
     <div class="wrap-content">
-        <HomeContent/>
+        <AboutContent/>
     </div>
-    <BPNav/>
     <Navigation/>
   </div>
 </template>
 
 <style lang="scss">
-    #Home {
+    #About {
         width:100%;
         height:100%;
     }

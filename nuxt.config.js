@@ -36,13 +36,11 @@ export default {
   googleFonts: {
     families: {
       // a simple name
-      Sansation: true,
+      Inter: true,
 
       // a name with spaces
-      'Sansation': true,
+      'Inter': true,
 
-      // specific font weights
-      Sansation: [100, 300],
     }
   },
 

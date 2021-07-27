@@ -1,7 +1,6 @@
-<template>
-  <div id="main">
-    <nav>
-        <a id="schedule">
+<template>    
+    <nav class="global">
+        <NuxtLink class="nav-item" to="/schedule" id="schedule">
             <i>
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0H30V23H23V30L15 23H0V0Z" fill="black"/>
@@ -14,8 +13,8 @@
                 <div class="title">Schedule a free consultation</div>
                 <div class="explanation">Does your project have the right stuff?</div>
             </div>
-        </a>
-        <a id="initiative">
+        </NuxtLink>
+        <NuxtLink class="nav-item" to="/initiative" id="initiative">
             <i>
                 <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="26" width="30" height="10" fill="black" fill-opacity="0.5"/>
@@ -34,8 +33,8 @@
                 <div class="title">Support the initiative</div>
                 <div class="explanation">Your votes help fund access</div>
             </div>
-        </a>
-        <a id="schedule">
+        </NuxtLink>
+        <NuxtLink class="nav-item" to="/services" id="services">
             <i>
                 <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M18.585 10.7836C14.8966 5.72664 6.33663 -2.52598 1.60426 4.91897C-3.12811 12.3639 10.9529 11.9308 18.585 10.7836Z" fill="black"/>
@@ -50,8 +49,8 @@
                 <div class="title">Hear about how we help you</div>
                 <div class="explanation">Design, UX, product, strategy, and marketing</div>
             </div>
-        </a>
-        <a id="nodenode">
+        </NuxtLink>
+        <NuxtLink class="nav-item" to="/about" id="about">
             <i>
                 <svg width="30" height="19" viewBox="0 0 30 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path opacity="0.2" d="M28.4795 0C28.93 0 29.296 0.138936 29.5776 0.416808C29.8591 0.694678 29.9999 1.04202 29.9999 1.45882V16.6462C29.9999 17.0978 29.831 17.4798 29.4931 17.7924C29.174 18.0877 28.7705 18.2353 28.2824 18.2353C28.0197 18.2353 27.7569 18.2006 27.4941 18.1311C27.2501 18.0443 27.0718 17.9314 26.9592 17.7924L16.6263 5.65294V16.7765C16.6263 17.1933 16.4762 17.5406 16.1759 17.8185C15.8943 18.0964 15.5189 18.2353 15.0497 18.2353C14.5992 18.2353 14.2332 18.0964 13.9516 17.8185C13.6701 17.5406 13.5293 17.1933 13.5293 16.7765V1.58908C13.5293 1.13754 13.6888 0.764146 14.0079 0.468908C14.3458 0.156303 14.7587 0 15.2467 0C15.5283 0 15.8005 0.0521012 16.0632 0.156304C16.3448 0.260505 16.5513 0.39944 16.6826 0.57311L26.931 12.6605V1.45882C26.931 1.04202 27.0718 0.694678 27.3533 0.416808C27.6536 0.138936 28.029 0 28.4795 0Z" fill="black"/>
@@ -63,10 +62,83 @@
                 <div class="title">Learn more about Nodenode</div>
                 <div class="explanation">We’re really excited to meet you all</div>
             </div>
-        </a>
+        </NuxtLink>
     </nav>
-  </div>
 </template>
 
-<style>
+<script>
+    export default {
+        data() {
+            return {
+            }
+        }
+    }
+</script>
+
+<style lang="scss">
+
+@import "@/assets/scss/_variables.scss";
+
+nav.global {
+
+    background:white;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(34px);
+    position:absolute;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    overflow:hidden;
+
+    &:hover, .selected {
+        background:rgba(255,255,255,0.84);
+    }
+
+
+    .nav-item {
+        width:25%;
+        padding:$padding-med $padding-big;
+        transition: all .12s ease-in-out;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+
+        i {
+            align-self:center;
+            margin-right:$padding-med;
+        }
+
+        div {
+
+            align-self:center;
+
+            .title {
+                font-family: Sansation, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                color: $black;
+            }
+
+            .explanation {
+                font-family: Sansation, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: $black;
+                opacity: 0.5;
+            }
+        }
+
+        &:hover, .selected {
+             background:white;
+            transform: scale(1.03);
+            box-shadow: 0px 4px 4px rgba(132, 47, 194, 0.42), 0px 4px 44px rgba(81, 22, 136, 0.87); 
+        }
+    }
+}
+
 </style>
