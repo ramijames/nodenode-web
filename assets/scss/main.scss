@@ -48,8 +48,19 @@ a {
 
 /* Content */
 
+@keyframes fade-in-wrap {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
 .wrap-content {
     flex:1;
+    animation-name: fade-in-wrap;
+    animation-duration: 1s;
 
     section {
         width:100%;
