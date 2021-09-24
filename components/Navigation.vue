@@ -94,7 +94,7 @@ nav.global {
     } 
 
     &:hover, .selected {
-        background:rgba(255,255,255,0.84);
+        background:rgba(255,255,255,0.94);
     }
 
 
@@ -107,7 +107,7 @@ nav.global {
         cursor: pointer;
 
         @media only screen and (max-width: 800px) {
-            width:100%;
+            width:calc(100% - 40px);
             padding: 14px $padding-med;
         } 
 
@@ -153,7 +153,7 @@ nav.global {
         &:hover, .selected {
              background:white;
             transform: scale(1.03);
-            box-shadow: 0px 4px 4px rgba(132, 47, 194, 0.42), 0px 4px 44px rgba(81, 22, 136, 0.87); 
+            box-shadow: 0px 4px 4px rgba(132, 47, 194, 0.22), 0px 4px 44px rgba(81, 22, 136, 0.27); 
         }
     }
 }
