@@ -11,6 +11,14 @@
             </svg>
             Back
         </NuxtLink>
+        <section class="button-group">
+            <span class="info">
+                Interested in joining Nodenode?
+            </span>
+            <a class="button" href="mailto:rami@nodenode.org">
+                Open a discussion
+            </a>
+        </section>
     </section>
     <Navigation/>
   </div>
