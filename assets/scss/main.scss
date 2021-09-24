@@ -13,8 +13,8 @@ body,html {
 
 body {
     background:$blue1;
-    background-image:url('@/assets/fakurian-design-u8Jn2rzYIps-unsplash.jpg');
-    background-size:cover;
+    background-image:url('@/assets/bg.png');
+    background-position:bottom right;
     border:$padding-med solid rgba(255,255,255,0.1);
     color:white;
     overflow: hidden;
@@ -49,12 +49,7 @@ a {
 /* Content */
 
 .wrap-content {
-    position:absolute;
-    left:20px;
-    right:20px;
-    top:20px;
-    bottom:102px;
-    overflow:hidden;
+    flex:1;
 
     section {
         width:100%;
@@ -84,6 +79,11 @@ a {
                 align-self:center;
                 text-align:center;
                 place-self: center;
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 26px;
+                    line-height: 32px;
+                } 
             }
 
             h3 {
@@ -96,16 +96,26 @@ a {
                 align-self:center;
                 text-align:center;
                 place-self: center;
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 16px;
+                    line-height: 22px;
+                } 
             } 
         }
     }
 }
 
+@keyframes sub-nav-grow {
+  from {
+    top:80px;
+  }
+  to {
+    top:0;
+  }
+}
+
 .sub-nav {
-    position: absolute;
-    right:20px;
-    left: 20px;
-    bottom:102px;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(74px);
     display: flex;
@@ -114,7 +124,12 @@ a {
     overflow:hidden;
     justify-content:space-between;
     align-items:center;
-    padding: $padding-med;
+    padding: $padding-med; 
+    animation-name: sub-nav-grow;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    position:relative;
+    z-index:0;
 
     .back {
         display: flex;

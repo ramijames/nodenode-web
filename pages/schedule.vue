@@ -15,7 +15,7 @@
             <span class="info">
                 Opens Calendly
             </span>
-            <a class="button">
+            <a class="button" href="https://calendly.com/nodenode">
                 Schedule Now
             </a>
         </section>
@@ -27,7 +27,8 @@
 
 <style lang="scss">
     #Schedule {
-        width:100%;
-        height:100%;
+        display:flex;
+        flex-direction:column;
+        height: 100%;
     }
 </style>

@@ -14,7 +14,7 @@
                 <div class="explanation">Does your project have the right stuff?</div>
             </div>
         </NuxtLink>
-        <NuxtLink class="nav-item" to="/initiative" id="initiative">
+        <!-- NuxtLink class="nav-item" to="/initiative" id="initiative">
             <i>
                 <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="26" width="30" height="10" fill="black" fill-opacity="0.5"/>
@@ -33,7 +33,7 @@
                 <div class="title">Support the initiative</div>
                 <div class="explanation">Your votes help fund access</div>
             </div>
-        </NuxtLink>
+        </NuxtLink -->
         <NuxtLink class="nav-item" to="/services" id="services">
             <i>
                 <svg width="27" height="34" viewBox="0 0 27 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,12 +84,14 @@ nav.global {
     background:white;
     display: flex;
     flex-direction: row;
-    backdrop-filter: blur(34px);
-    position:absolute;
-    left:20px;
-    right:20px;
-    bottom:20px;
-    overflow:hidden;
+    z-index:1;
+
+    @media only screen and (max-width: 800px) {
+        left:0px;
+        right:0px;
+        bottom:0px;
+        flex-direction:column;
+    } 
 
     &:hover, .selected {
         background:rgba(255,255,255,0.84);
@@ -97,12 +99,17 @@ nav.global {
 
 
     .nav-item {
-        width:25%;
+        width:33.3333%;
         padding:$padding-med $padding-big;
         transition: all .12s ease-in-out;
         display: flex;
         flex-direction: row;
         cursor: pointer;
+
+        @media only screen and (max-width: 800px) {
+            width:100%;
+            padding: 14px $padding-med;
+        } 
 
         i {
             align-self:center;
@@ -120,6 +127,12 @@ nav.global {
                 font-size: 16px;
                 line-height: 20px;
                 color: $black;
+
+                @media only screen and (max-width: 1200px) {
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-bottom:2px;
+                } 
             }
 
             .explanation {
@@ -130,6 +143,11 @@ nav.global {
                 line-height: 16px;
                 color: $black;
                 opacity: 0.5;
+
+                @media only screen and (max-width: 1200px) {
+                    font-size: 11px;
+                    line-height: 13px;
+                } 
             }
         }
 

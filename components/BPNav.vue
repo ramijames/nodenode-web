@@ -4,7 +4,7 @@
             <span class="bp-pill">API</span>
             api.nodenode.org:5357
         </section>
-        <a class="bp-json" href="#">
+        <a class="bp-json" href="/bp.telos.json">
             View our bp.json 
             <svg width="6" height="12" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 14L8 7.5L0.999999 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -26,12 +26,16 @@
 
 @import "@/assets/scss/_variables.scss";
 
+@keyframes grow {
+  from {
+    top:44px;
+  }
+  to {
+    top:0;
+  }
+}
+
 nav.bp {
-    position: absolute;
-    right:20px;
-    height: 52px;
-    left: 20px;
-    bottom:102px;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(74px);
     display: flex;
@@ -40,8 +44,13 @@ nav.bp {
     overflow:hidden;
     justify-content:space-between;
     align-items:center;
-    padding: 0 $padding-med;
+    padding: 10px $padding-med;
     font-size:12px;
+    animation-name: grow;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    position:relative;
+    z-index:0;
 
     .bp-api {
         color: rgba(255, 255, 255, 0.5);

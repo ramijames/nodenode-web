@@ -1,0 +1,67 @@
+{
+  "producer_account_name": "nodenodenode",
+  "org": {
+    "candidate_name": "Nodenode",
+    "website": "https://www.nodenode.org",
+    "code_of_conduct":"",
+    "ownership_disclosure":"",
+    "email":"",
+    "branding":{
+      "logo_256":"",
+      "logo_1024":"",
+      "logo_svg":"",
+      "guidelines":""
+    },
+    "location": {
+      "name": "Israel",
+      "country": "IL",
+      "latitude": 31.981700,
+      "longitude": 34.759220
+    },
+    "social": {
+      "twitter": "",
+      "github":"",
+      "telegram": "",
+      "reddit":"",
+      "youtube":""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "",
+        "country": "",
+        "latitude": ,
+        "longitude": 
+      },
+      "node_type": "full",
+      "history_type":  "none",
+      "api_endpoint": "",
+      "ssl_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "",
+        "country": "",
+        "latitude": ,
+        "longitude": 
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "",
+      "bnet_endpoint": ""
+    },
+    {
+      "location": {
+        "name": "",
+        "country": "",
+        "latitude": ,
+        "longitude": 
+      },
+      "node_type": "producer",
+      "p2p_endpoint": "",
+      "api_endpoint": "",
+      "bnet_endpoint": "",
+      "ssl_endpoint": ""
+    }
+  ]
+}

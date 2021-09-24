@@ -8,4 +8,11 @@
     </section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+#ScheduleContent {
+        overflow-y:scroll;
+        padding-top: 20px;
+}
+
+</style>
