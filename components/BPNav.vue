@@ -37,6 +37,7 @@
 
 nav.bp {
     background: rgba(0, 0, 0, 0.3);
+    mix-blend-mode: overlay;
     backdrop-filter: blur(74px);
     display: flex;
     flex-direction: row;
@@ -51,12 +52,13 @@ nav.bp {
     animation-timing-function: ease-in-out;
     position:relative;
     z-index:0;
+    font-family: Poppins;
 
     .bp-api {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 1);
 
         .bp-pill {
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(255, 255, 255, 1);
             background-color:black;
             padding:3px 6px;
             font-size:9px;

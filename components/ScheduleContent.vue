@@ -11,7 +11,7 @@
 <style lang="scss">
 
 #ScheduleContent {
-        overflow-y:scroll;
+        overflow-y:auto;
         padding-top: 20px;
 }
 

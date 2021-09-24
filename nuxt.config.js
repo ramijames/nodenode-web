@@ -36,10 +36,10 @@ export default {
   googleFonts: {
     families: {
       // a simple name
-      Inter: true,
+      Poppins: true,
 
       // a name with spaces
-      'Inter': true,
+      'Poppins': true,
 
     }
   },

@@ -121,26 +121,25 @@ nav.global {
             align-self:center;
 
             .title {
-                font-family: Sansation, sans-serif;
+                font-family: Poppins;
                 font-style: normal;
-                font-weight: bold;
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 20px;
                 color: $black;
 
                 @media only screen and (max-width: 1200px) {
-                    font-size: 14px;
-                    line-height: 16px;
+                    font-size: 12px;
+                    line-height: 14px;
                     margin-bottom:2px;
                 } 
             }
 
             .explanation {
-                font-family: Sansation, sans-serif;
+                font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 14px;
-                line-height: 16px;
+                font-size: 12px;
+                line-height: 14px;
                 color: $black;
                 opacity: 0.5;
 
