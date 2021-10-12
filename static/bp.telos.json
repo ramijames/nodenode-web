@@ -1,11 +1,11 @@
 {
-  "producer_account_name": "nodenodenode",
+  "producer_account_name": "nodenodeorg1",
   "org": {
     "candidate_name": "Nodenode",
     "website": "https://www.nodenode.org",
-    "code_of_conduct":"",
-    "ownership_disclosure":"",
-    "email":"",
+    "code_of_conduct":"https://www.nodenode.org/conduct",
+    "ownership_disclosure":"https://www.nodenode.org/about",
+    "email":"rami@nodenode.org",
     "branding":{
       "logo_256":"",
       "logo_1024":"",
@@ -20,48 +20,52 @@
     },
     "social": {
       "twitter": "",
-      "github":"",
+      "github": "",
       "telegram": "",
-      "reddit":"",
-      "youtube":""
+      "reddit": ""
     }
   },
   "nodes": [
     {
       "location": {
-        "name": "",
-        "country": "",
-        "latitude": ,
-        "longitude": 
-      },
-      "node_type": "full",
-      "history_type":  "none",
-      "api_endpoint": "",
-      "ssl_endpoint": ""
-    },
-    {
-      "location": {
-        "name": "",
-        "country": "",
-        "latitude": ,
-        "longitude": 
-      },
-      "node_type": "seed",
-      "p2p_endpoint": "",
-      "bnet_endpoint": ""
-    },
-    {
-      "location": {
-        "name": "",
-        "country": "",
-        "latitude": ,
-        "longitude": 
+        "name": "Vint Hill",
+        "country": "US",
+        "latitude": 38.7464544,
+        "longitude": -77.6825454,15
       },
       "node_type": "producer",
-      "p2p_endpoint": "",
-      "api_endpoint": "",
-      "bnet_endpoint": "",
-      "ssl_endpoint": ""
-    }
+    },
+    {
+      "location": {
+        "name": "Vint Hill",
+        "country": "US",
+        "latitude": 38.7464544,
+        "longitude": -77.6825454,15
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "p2p.telos.nodenode.org:9876"
+    },
+    {
+      "location": {
+        "name": "Vint Hill",
+        "country": "US",
+        "latitude": 38.7464544,
+        "longitude": -77.6825454,15
+      },
+      "node_type": "full",
+      "api_endpoint": "http://telos.nodenode.org",
+      "ssl_endpoint": "https://telos.nondenode.org"
+    },
+    {
+      "location": {
+        "name": "London",
+        "country": "UK",
+        "latitude": 51.5285582,
+        "longitude": -0.2416796
+      },
+      "node_type": "query",
+      "api_endpoint": "http://telos.nodenode.org",
+      "ssl_endpoint": "https://telos.nondenode.org"
+    },
   ]
 }
