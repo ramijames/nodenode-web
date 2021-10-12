@@ -31,7 +31,7 @@
         "name": "Vint Hill",
         "country": "US",
         "latitude": 38.7464544,
-        "longitude": -77.6825454,15
+        "longitude": -77.6825454
       },
       "node_type": "producer",
     },
@@ -40,7 +40,7 @@
         "name": "Vint Hill",
         "country": "US",
         "latitude": 38.7464544,
-        "longitude": -77.6825454,15
+        "longitude": -77.6825454
       },
       "node_type": "seed",
       "p2p_endpoint": "p2p.telos.nodenode.org:9876"
@@ -50,7 +50,7 @@
         "name": "Vint Hill",
         "country": "US",
         "latitude": 38.7464544,
-        "longitude": -77.6825454,15
+        "longitude": -77.6825454
       },
       "node_type": "full",
       "api_endpoint": "http://telos.nodenode.org",
