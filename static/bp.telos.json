@@ -43,6 +43,7 @@
         "longitude": -77.6825454,15
       },
       "node_type": "seed",
+      "p2p_endpoint": "p2p.telos.nodenode.org:9876"
     },
     {
       "location": {
@@ -62,7 +63,7 @@
         "latitude": 51.5285582,
         "longitude": -0.2416796
       },
-      "node_type": "api",
+      "node_type": "query",
       "api_endpoint": "http://telos.nodenode.org",
       "ssl_endpoint": "https://telos.nondenode.org"
     },
