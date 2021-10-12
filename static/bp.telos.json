@@ -7,9 +7,9 @@
     "ownership_disclosure":"https://www.nodenode.org/about",
     "email":"rami@nodenode.org",
     "branding":{
-      "logo_256":"",
-      "logo_1024":"",
-      "logo_svg":"",
+      "logo_256":"https://www.nodenode.org/nodenode-logo@256.png",
+      "logo_1024":"https://www.nodenode.org/nodenode-logo@1024.png",
+      "logo_svg":"https://www.nodenode.org/nodenode-logo.svg",
       "guidelines":""
     },
     "location": {
