@@ -15,8 +15,8 @@
     "location": {
       "name": "Israel",
       "country": "IL",
-      "latitude": 31.981700,
-      "longitude": 34.759220
+      "latitude": "31.981700",
+      "longitude": "34.759220"
     },
     "social": {
       "twitter": "",
@@ -30,8 +30,8 @@
       "location": {
         "name": "Vint Hill",
         "country": "US",
-        "latitude": 38.7464544,
-        "longitude": -77.6825454
+        "latitude": "38.7464544",
+        "longitude": "-77.6825454"
       },
       "node_type": "producer",
     },
@@ -39,8 +39,8 @@
       "location": {
         "name": "Vint Hill",
         "country": "US",
-        "latitude": 38.7464544,
-        "longitude": -77.6825454
+        "latitude": "38.7464544",
+        "longitude": "-77.6825454"
       },
       "node_type": "seed",
       "p2p_endpoint": "p2p.telos.nodenode.org:9876"
@@ -49,8 +49,8 @@
       "location": {
         "name": "Vint Hill",
         "country": "US",
-        "latitude": 38.7464544,
-        "longitude": -77.6825454
+        "latitude": "38.7464544",
+        "longitude": "-77.6825454"
       },
       "node_type": "full",
       "api_endpoint": "http://telos.nodenode.org",
@@ -60,8 +60,8 @@
       "location": {
         "name": "London",
         "country": "UK",
-        "latitude": 51.5285582,
-        "longitude": -0.2416796
+        "latitude": "51.5285582",
+        "longitude": "-0.2416796"
       },
       "node_type": "query",
       "api_endpoint": "http://telos.nodenode.org",
