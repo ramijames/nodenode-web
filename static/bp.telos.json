@@ -1,8 +1,8 @@
 {
-  "producer_account_name": "nodenodeorg1",
-  "org": {
-    "candidate_name": "Nodenode",
-    "website": "https://www.nodenode.org",
+  "producer_account_name":"nodenodeorg1",
+  "org":{
+    "candidate_name":"Nodenode",
+    "website":"https://www.nodenode.org",
     "code_of_conduct":"https://www.nodenode.org/conduct",
     "ownership_disclosure":"https://www.nodenode.org/about",
     "email":"rami@nodenode.org",
@@ -12,60 +12,60 @@
       "logo_svg":"https://www.nodenode.org/nodenode-logo.svg",
       "guidelines":""
     },
-    "location": {
-      "name": "Israel",
-      "country": "IL",
-      "latitude": "31.981700",
-      "longitude": "34.759220"
+    "location":{
+      "name":"Israel",
+      "country":"IL",
+      "latitude":"31.981700",
+      "longitude":"34.759220"
     },
-    "social": {
-      "twitter": "",
-      "github": "",
-      "telegram": "",
-      "reddit": ""
+    "social":{
+      "twitter":"",
+      "github":"",
+      "telegram":"",
+      "reddit":""
     }
   },
-  "nodes": [
+  "nodes":[
     {
-      "location": {
-        "name": "Vint Hill",
-        "country": "US",
-        "latitude": "38.7464544",
-        "longitude": "-77.6825454"
+      "location":{
+        "name":"Vint Hill",
+        "country":"US",
+        "latitude":"38.7464544",
+        "longitude":"-77.6825454"
       },
-      "node_type": "producer",
+      "node_type":"producer"
     },
     {
-      "location": {
-        "name": "Vint Hill",
-        "country": "US",
-        "latitude": "38.7464544",
-        "longitude": "-77.6825454"
+      "location":{
+        "name":"Vint Hill",
+        "country":"US",
+        "latitude":"38.7464544",
+        "longitude":"-77.6825454"
       },
-      "node_type": "seed",
-      "p2p_endpoint": "p2p.telos.nodenode.org:9876"
+      "node_type":"seed",
+      "p2p_endpoint":"p2p.telos.nodenode.org:9876"
     },
     {
-      "location": {
-        "name": "Vint Hill",
-        "country": "US",
-        "latitude": "38.7464544",
-        "longitude": "-77.6825454"
+      "location":{
+        "name":"Vint Hill",
+        "country":"US",
+        "latitude":"38.7464544",
+        "longitude":"-77.6825454"
       },
-      "node_type": "full",
-      "api_endpoint": "http://telos.nodenode.org",
-      "ssl_endpoint": "https://telos.nondenode.org"
+      "node_type":"full",
+      "api_endpoint":"http://telos.nodenode.org",
+      "ssl_endpoint":"https://telos.nondenode.org"
     },
     {
-      "location": {
-        "name": "London",
-        "country": "UK",
-        "latitude": "51.5285582",
-        "longitude": "-0.2416796"
+      "location":{
+        "name":"London",
+        "country":"UK",
+        "latitude":"51.5285582",
+        "longitude":"-0.2416796"
       },
-      "node_type": "query",
-      "api_endpoint": "http://telos.nodenode.org",
-      "ssl_endpoint": "https://telos.nondenode.org"
-    },
+      "node_type":"query",
+      "api_endpoint":"http://telos.nodenode.org",
+      "ssl_endpoint":"https://telos.nondenode.org"
+    }
   ]
 }
