@@ -12,10 +12,8 @@ body,html {
 }
 
 body {
-    background:$blue1;
-    background-image:url('@/assets/bg.png');
-    background-position:bottom right;
-    border:$padding-med solid rgba(255,255,255,1);
+    background:black;
+    border:$padding-med solid white;
     color:white;
     overflow: hidden;
     font-family: Inter;
@@ -32,10 +30,13 @@ body {
         right:0px;
         bottom: 0px;
         z-index: -1;
-        background: linear-gradient(220deg, rgba(214, 121, 168, 0) 50%, #5100C7 75.76%);
+        background: linear-gradient(220deg, rgba(214, 121, 168, 0) 50%, #5100C733 75.76%);
         // background: red;
         opacity: 0.9;
     }
+
+
+
 }
 
 #__nuxt, #__layout {
@@ -76,8 +77,16 @@ a {
             align-content: center;
             justify-content: center;
             align-items: left;
-            width:50%;
-            padding-left:40px;
+            width:60%;
+            margin:0 auto;
+
+            .logo {
+                position:fixed;
+                top:0;
+                left:0;
+                background:white;
+                padding:20px;
+            }
 
             @media only screen and (max-width: 800px) {
                 width:100%;
@@ -88,9 +97,25 @@ a {
             h1 {
                 font-family: 'Poppins';
                 font-weight:200;
+                font-size: 60px;
+                line-height: 64px;
+                color: #fff;
+                margin-top:0;
+                margin-bottom:10px;
+                text-align:left;
+
+                @media only screen and (max-width: 800px) {
+                    font-size: 32px;
+                    line-height: 32px;
+                } 
+            }
+
+            h2 {
+                font-family: 'Poppins';
+                font-weight:200;
                 font-size: 40px;
                 line-height: 44px;
-                color: #000;
+                color: rgba(255,255,255,0.4);
                 margin-top:0;
                 text-align:left;
 
@@ -102,9 +127,9 @@ a {
 
             h3 {
                 font-family: sans-serif;
-                font-size: 16px;
+                font-size: 24px;
                 font-weight:200;
-                line-height: 20px;
+                line-height: 32px;
                 color: #FFFFFF;
                 text-align:left;
                 margin-top:8px;
@@ -115,6 +140,15 @@ a {
                     line-height: 22px;
                 } 
             } 
+
+            p {
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight:200;
+                line-height: 20px;
+                color: #FFFFFF;
+                opacity:0.7;
+            }
         }
     }
 }
@@ -129,7 +163,7 @@ a {
 }
 
 .sub-nav {
-    background: rgba(0, 0, 0, 0.3);
+    border-top:2px solid white;
     display: flex;
     flex-direction: row;
     backdrop-filter: blur(34px);
@@ -138,12 +172,11 @@ a {
     align-items:center;
     padding: $padding-med; 
     animation-name: sub-nav-grow;
-    animation-duration: 0.25s;
+    animation-duration: 0.15s;
     animation-timing-function: ease-in-out;
     position:relative;
     z-index:0;
     font-family: Poppins;
-    mix-blend-mode: overlay;
 
     .back {
         display: flex;

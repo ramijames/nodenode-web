@@ -36,9 +36,7 @@
 }
 
 nav.bp {
-    background: rgba(0, 0, 0, 0.3);
-    mix-blend-mode: overlay;
-    backdrop-filter: blur(74px);
+    border:2px solid rgba(255,255,255,0.2);
     display: flex;
     flex-direction: row;
     backdrop-filter: blur(34px);
@@ -58,8 +56,8 @@ nav.bp {
         color: rgba(255, 255, 255, 1);
 
         .bp-pill {
-            color: rgba(255, 255, 255, 1);
-            background-color:black;
+            color: black;
+            background-color:white;
             padding:3px 6px;
             font-size:9px;
             font-weight:bold;

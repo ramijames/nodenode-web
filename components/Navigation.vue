@@ -105,6 +105,7 @@ nav.global {
         display: flex;
         flex-direction: row;
         cursor: pointer;
+        border-bottom:2px solid white;
 
         @media only screen and (max-width: 800px) {
             width:calc(100% - 40px);
@@ -151,9 +152,13 @@ nav.global {
         }
 
         &:hover, .selected {
-             background:white;
-            transform: scale(1.03);
-            box-shadow: 0px 4px 4px rgba(132, 47, 194, 0.22), 0px 4px 44px rgba(81, 22, 136, 0.27); 
+            background:white;
+            border-bottom:2px solid white;
+            
+        }
+
+        &.nuxt-link-active {
+            border-bottom:2px solid black;
         }
     }
 }
