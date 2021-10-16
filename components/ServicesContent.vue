@@ -11,13 +11,13 @@
                <tr>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h3>Design ➝</h3>
+                            <p><strong>Design ➝</strong></p>
                             <p>Your UX is solid, but you need a more unique face</p>
                         </nuxt-link>
                    </td>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h3>Branding ➝</h3>
+                            <p><strong>Branding ➝</strong></p>
                             <p>Your idea is amazing, but your project needs name recognition</p>
                         </nuxt-link>
                    </td>
@@ -25,13 +25,13 @@
                <tr>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h3>User Experience ➝</h3>
+                            <p><strong>User Experience ➝</strong></p>
                             <p>Your code is great, but nobody can figure out what to do</p>
                         </nuxt-link>
                    </td>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h3>Product Marketing ➝</h3>
+                            <p><strong>Product Marketing ➝</strong></p>
                             <p>You're ready, but the market doesn't know it</p>
                         </nuxt-link>
                    </td>

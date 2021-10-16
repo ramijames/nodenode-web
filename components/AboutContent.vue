@@ -23,10 +23,9 @@
 
         li {
             font-family: 'Poppins';
-            font-size:24px;
             font-weight:100;
             list-style:none;
-            padding:5px 0;
+            padding:20px 0;
             color:rgba(255,255,255,0.4);
 
             strong {
