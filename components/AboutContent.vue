@@ -5,7 +5,7 @@
 
             <img src="@/assets/4Th1.gif" class="inline-wow">
             <h1>Your available talent</h1>
-            <h3>We are starting small and will be expanding the team of experienced minds as the project grows.</h3>
+            <h2>We are starting small and will be expanding the team of experienced minds as the project grows.</h2>
             <ul>
                 <li><strong>Rami James</strong> - Scatter, Ultra, Telos</li>
                 <li><strong>Felipe Faria</strong> - EOS Rio, Ultra, The Sandbox</li>

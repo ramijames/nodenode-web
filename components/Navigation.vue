@@ -87,11 +87,13 @@ nav.global {
     z-index:1;
 
     @media only screen and (max-width: 800px) {
-        left:0px;
-        right:0px;
-        bottom:0px;
+        display:block;
+        position: fixed;
+        bottom:0;
+        width:100%;
+        z-index:1;
         flex-direction:column;
-    } 
+    }
 
     &:hover, .selected {
         background:rgba(255,255,255,0.94);

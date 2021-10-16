@@ -36,7 +36,7 @@
 }
 
 nav.bp {
-    border:2px solid rgba(255,255,255,0.2);
+    border:2px solid rgba(255,255,255,0.1);
     display: flex;
     flex-direction: row;
     backdrop-filter: blur(34px);

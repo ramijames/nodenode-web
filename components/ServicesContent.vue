@@ -6,18 +6,18 @@
             <img src="@/assets/wow2.webp" class="inline-wow">
 
             <h1>Our service to the network</h1>
-           <h3>Currently, we are providing these services to qualifying projects.</h3>
-           <table>
+            <h2>Currently, we are providing these services to qualifying projects.</h2>
+            <table>
                <tr>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h2>Design ➝</h2>
+                            <h3>Design ➝</h3>
                             <p>Your UX is solid, but you need a more unique face</p>
                         </nuxt-link>
                    </td>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h2>Branding ➝</h2>
+                            <h3>Branding ➝</h3>
                             <p>Your idea is amazing, but your project needs name recognition</p>
                         </nuxt-link>
                    </td>
@@ -25,13 +25,13 @@
                <tr>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h2>User Experience ➝</h2>
+                            <h3>User Experience ➝</h3>
                             <p>Your code is great, but nobody can figure out what to do</p>
                         </nuxt-link>
                    </td>
                    <td>
                         <nuxt-link to="/schedule">
-                            <h2>Product Marketing ➝</h2>
+                            <h3>Product Marketing ➝</h3>
                             <p>You're ready, but the market doesn't know it</p>
                         </nuxt-link>
                    </td>
