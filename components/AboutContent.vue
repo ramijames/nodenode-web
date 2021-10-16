@@ -3,8 +3,7 @@
         <div class="flex-wrap">
             <Logo/>
 
-            <img src="@/assets/wow3.gif" class="inline-wow">
-
+            <img src="@/assets/4Th1.gif" class="inline-wow">
             <h1>Your available talent</h1>
             <h3>We are starting small and will be expanding the team of experienced minds as the project grows.</h3>
             <ul>
