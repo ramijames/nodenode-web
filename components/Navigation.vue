@@ -85,6 +85,12 @@ nav.global {
     display: flex;
     flex-direction: row;
     z-index:1;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    z-index:1;
+    flex-direction:row;
+    height:86px;
 
     @media only screen and (max-width: 800px) {
         display:block;
@@ -93,6 +99,7 @@ nav.global {
         width:100%;
         z-index:1;
         flex-direction:column;
+        height:160px;
     }
 
     &:hover, .selected {
@@ -111,7 +118,7 @@ nav.global {
 
         @media only screen and (max-width: 800px) {
             width:calc(100% - 40px);
-            padding: 14px $padding-med;
+            padding: 8px $padding-med;
         } 
 
         i {

@@ -3,7 +3,7 @@
     <div class="wrap-content">
         <HomeContent/>
     </div>
-    <BPNav/>
+    
     <Navigation/>
   </div>
 </template>

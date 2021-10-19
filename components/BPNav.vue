@@ -1,16 +1,5 @@
 <template>    
-    <nav class="bp">
-        <section class="bp-api">
-            <span class="bp-pill">API</span>
-            api.nodenode.org:5357
-        </section>
-        <a class="bp-json" href="/bp.telos.json">
-            View our bp.json 
-            <svg width="6" height="12" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 14L8 7.5L0.999999 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-        </a>
-    </nav>
+    <nav></nav>
 </template>
 
 <script>
@@ -36,7 +25,7 @@
 }
 
 nav.bp {
-    border:2px solid rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.1);
     display: flex;
     flex-direction: row;
     backdrop-filter: blur(34px);
@@ -51,9 +40,11 @@ nav.bp {
     position:relative;
     z-index:0;
     font-family: Poppins;
+    margin-top:20px;
 
     .bp-api {
         color: rgba(255, 255, 255, 1);
+        width:50%;  
 
         .bp-pill {
             color: black;

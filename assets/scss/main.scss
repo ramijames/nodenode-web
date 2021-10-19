@@ -19,7 +19,7 @@ html
 body,html {
     margin:0;
     padding:0;
-    height:calc(100% - 20px);
+    height: 100%;
 }
 
 body {
@@ -112,14 +112,37 @@ a {
     flex:1;
     animation-name: fade-in-wrap;
     animation-duration: 1s;
+    top: 100px;
+    position: fixed;
+    right: 20px;
+    left: 20px;
+    bottom: 86px;
+    padding:0;
+    height:auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+
+
+    @media only screen and (max-width: 800px) {
+        top: 39px;
+        position: fixed;
+        right: 0;
+        left: 0;
+        bottom: 160px;
+        padding:0;
+        height:auto;
+        overflow-y:auto;
+        overflow-x: hidden;
+    } 
 
     section {
         width:100%;
         height:100%;
         display:flex;
         flex-direction: row;
-        align-content: left;
-        justify-content: flex-start;
+        align-content: center;
+        justify-content: stretch;
+        padding:40px 0 80px;
 
         @media only screen and (min-width: 1400px) {
             display:block;
@@ -138,9 +161,7 @@ a {
             border-right:1px solid rgba(255,255,255,0.1);
             padding-right:40px;
             padding-left: 80px;
-
-            overflow-y: auto;
-            overflow-x:hidden;
+            z-index:200;
             height: 100%;
 
             @media only screen and (min-width: 1400px) {
@@ -160,16 +181,20 @@ a {
 
             .logo {
                 position:fixed;
-                top:0;
-                left:0;
+                top:20px;
+                left:20px;
                 background:white;
-                padding:20px;
+                padding:20px 20px 21px;
                 color:rgba(255,255,255,0.7);
                 border-bottom:1px solid white;
 
                 @media only screen and (max-width: 800px) {
-                    width:40px;
-                    padding: 5px 10px;
+                    width:30px;
+                    padding: 0 4px;
+                    border-radius:4px;
+                    top:4px;
+                    left:4px;
+                    height:28px;
                 }
             }
 
@@ -213,6 +238,21 @@ a {
                 opacity:0.7;
             }
 
+            ul {
+                margin:10px;
+                padding:0 8px;
+
+                li {
+                    a {
+                        border-bottom:1px solid black;
+
+                        &:hover {
+                            border-bottom:1px solid white;
+                        }
+                    }
+                }
+            }
+
             table {
 
                 td {
@@ -247,15 +287,14 @@ a {
 
 @keyframes sub-nav-grow {
   from {
-    top:80px;
+    opacity:0;
   }
   to {
-    top:0;
+    opacity:1;
   }
 }
 
 .sub-nav {
-    border-top:2px solid rgba(255,255,255,0.1);
     background:black;
     display: flex;
     flex-direction: row;
@@ -263,13 +302,22 @@ a {
     overflow:hidden;
     justify-content:space-between;
     align-items:center;
-    padding: $padding-med; 
+    height:80px;
+    padding:0 20px;
+    margin-left:102px;
     animation-name: sub-nav-grow;
     animation-duration: 0.15s;
     animation-timing-function: ease-in-out;
     position:relative;
     z-index:0;
     font-family: Poppins;
+
+    @media only screen and (max-width: 800px) {
+        height:39px;
+        padding:0 5px;
+        margin-left:40px;
+        justify-content: end;
+    } 
 
     .back {
         display: flex;
@@ -281,6 +329,10 @@ a {
         svg {
             margin-right:10px;
         }
+
+        @media only screen and (max-width: 800px) {
+            display:none;
+        } 
     }
 
     .button-group {
@@ -288,11 +340,20 @@ a {
         justify-content:space-between;
         align-items:center;
 
+        @media only screen and (max-width: 800px) {
+            align-items:right;
+        } 
+
         .info {
             font-size: 14px;
             color: rgba(255, 255, 255, 0.75);
             margin-right:$padding-med;
             font-family: Poppins;
+
+            @media only screen and (max-width: 800px) {
+                font-size: 12px;
+                margin-right:8px;
+            } 
         }
 
         .button {
@@ -308,6 +369,12 @@ a {
             border:2px solid white;
             background: transparent;
             border-radius: 4px;
+
+            @media only screen and (max-width: 800px) {
+                font-size: 12px;
+                padding:$padding-small;
+                line-height: 6px;
+            } 
 
 
             &:hover {

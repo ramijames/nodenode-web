@@ -1,9 +1,6 @@
 <template>
   <div id="About">
-    <div class="wrap-content">
-        <AboutContent/>
-    </div>
-    <section class="sub-nav">
+    <section class="sub-nav"> 
         <NuxtLink class="back" to="/">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="16" cy="16" r="16" fill="white" fill-opacity="1"/>
@@ -20,6 +17,10 @@
             </a>
         </section>
     </section>
+    <div class="wrap-content">
+        <AboutContent/>
+    </div>
+    
     <Navigation/>
   </div>
 </template>

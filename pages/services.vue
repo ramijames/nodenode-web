@@ -1,8 +1,5 @@
 <template>
   <div id="Services">
-    <div class="wrap-content">
-        <ServicesContent/>
-    </div>
     <section class="sub-nav">
         <NuxtLink class="back" to="/">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,7 +8,20 @@
             </svg>
             Back
         </NuxtLink>
+        <section class="button-group">
+            <span class="info">
+                Opens Calendly
+            </span>
+            <a class="button" href="https://calendly.com/nodenode">
+                Schedule Now
+            </a>
+        </section>
     </section>
+
+    <div class="wrap-content">
+        <ServicesContent/>
+    </div>
+    
     <Navigation/>
   </div>
 </template>

@@ -14,9 +14,4 @@
 
 <style lang="scss">
 
-#ScheduleContent {
-        overflow-y:auto;
-        padding-top: 20px;
-}
-
 </style>
