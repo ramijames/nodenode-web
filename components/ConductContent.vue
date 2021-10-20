@@ -68,8 +68,6 @@
            <h3>Project Selection Criteria</h3>
            <p>Qualifying projects are selected from the pool of applicants. They must have the following features:</p>
 
-As our resources are limited, we must carefully select which projects we partner with. Our criteria for acceptance are decided by the larger impact on the Telos ecosystem, user growth potential, and project complexity.
-
            <ul>
                
                 <li>Impact on the network ecosystem</li>
