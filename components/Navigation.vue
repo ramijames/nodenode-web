@@ -59,7 +59,7 @@
 
             </i>
             <div>
-                <div class="title">Learn more about Nodenode</div>
+                <div class="title">Nodenode contributors</div>
                 <div class="explanation">We’re really excited to meet you all</div>
             </div>
         </NuxtLink>
@@ -87,8 +87,8 @@ nav.global {
     z-index:1;
     position: fixed;
     bottom:0;
-    border-bottom:20px solid white;
-    width:calc(100% - 40px);
+    border-bottom:0px solid white;
+    width:100%;
     z-index:1;
     flex-direction:row;
     height:86px;
@@ -101,6 +101,7 @@ nav.global {
         z-index:1;
         flex-direction:column;
         height:160px;
+        border-bottom:0;
     }
 
     .nav-item {
@@ -111,10 +112,9 @@ nav.global {
         flex-direction: row;
         align-items:center;
         cursor: pointer;
-        border-bottom:2px solid white;
 
         @media only screen and (max-width: 800px) {
-            width:calc(100% - 40px);
+            width:100%;
             padding: 8px $padding-med;
         } 
 
@@ -164,7 +164,7 @@ nav.global {
         }
 
         &:hover, .selected, &.nuxt-link-active {
-            background:rgba(0,0,0,0.9);
+            background:rgba(0,0,0,1);
 
             .title, .explanation { 
                 color:white;
@@ -177,7 +177,7 @@ nav.global {
         }
 
         &.nuxt-link-active {
-            background:rgba(0,0,0,1);
+            background:rgba(0,0,0,0.9);
         }
     }
 }
