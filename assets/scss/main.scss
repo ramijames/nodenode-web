@@ -26,7 +26,7 @@ body {
     background:black;
     border:0 solid white;
     color:white;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: Inter;
 
     .pos-1 {
@@ -114,32 +114,14 @@ a {
 
 .wrap-content {
     display:flex;
-    top: 100px;
-    position: fixed;
-    right: 0px;
-    left: 0px;
-    bottom: 86px;
-    padding:0;
-    height:auto;
-    overflow-y:auto;
-    overflow-x: hidden;
     flex-direction: column;
     align-content: stretch;
     justify-content: center;
     align-items: stretch;
-
+    padding:140px 0 160px;
 
     @media only screen and (max-width: 800px) {
-        top: 39px;
-        position: fixed;
-        right: 0;
-        left: 0;
-        bottom: 160px;
-        padding:0;
-        height:auto;
-        overflow-y:auto;
-        overflow-x: hidden;
-        display:block;
+        padding:40px 0 160px;
     } 
 
     section {
@@ -163,7 +145,6 @@ a {
             border-right:1px solid rgba(255,255,255,0.1);
             padding-right:40px;
             padding-left: 80px;
-            z-index:200;
 
             @media only screen and (min-width: 1400px) {
                 width:65%;
@@ -174,7 +155,7 @@ a {
                 width:80%;
                 max-width:60%;
                 right:-15%;
-                top: -50%;
+                top: -20%;
                 height:auto;
                 z-index:-1;
                 opacity:0.45;

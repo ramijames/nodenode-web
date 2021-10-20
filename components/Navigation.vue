@@ -89,7 +89,7 @@ nav.global {
     bottom:0;
     border-bottom:0px solid white;
     width:100%;
-    z-index:1;
+    z-index:1000;
     flex-direction:row;
     height:86px;
 
