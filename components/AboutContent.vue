@@ -4,7 +4,7 @@
             <Logo/>
 
             <img src="@/assets/4Th1.gif" class="inline-wow">
-            <h1>Your available talent</h1>
+            <h1>Contributors to the cause</h1>
             <h2>We are starting small and will be expanding the team of experienced minds as the project grows.</h2>
             <ul id="contributor-list">
                 <li>
@@ -68,6 +68,10 @@
         list-style:none;
         display:flex;
         flex-direction:row;
+
+        @media only screen and (max-width: 800px) {
+            flex-direction:column;
+        }
 
         li {
             font-family: 'Poppins';
