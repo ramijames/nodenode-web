@@ -124,6 +124,10 @@ a {
     align-items: stretch;
     padding:140px 0 160px;
 
+    &.wrap-centered {
+        height:100%;
+    }
+
     @media only screen and (max-width: 800px) {
         padding:40px 0 160px;
     } 
@@ -135,6 +139,10 @@ a {
         align-content: center;
         justify-content: stretch;
         padding:0 0 80px;
+
+        &.centered {
+            height:100%;
+        }
 
         .flex-wrap {
             display:flex;

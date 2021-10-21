@@ -1,5 +1,5 @@
 <template>
-    <section id="HomeContent">
+    <section id="HomeContent" class="centered">
         <div class="flex-wrap">
             <Logo/>          
 

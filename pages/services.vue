@@ -18,7 +18,7 @@
         </section>
     </section>
 
-    <div class="wrap-content">
+    <div class="wrap-content wrap-centered">
         <ServicesContent/>
     </div>
     

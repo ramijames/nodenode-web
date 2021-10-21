@@ -1,6 +1,6 @@
 <template>
   <div id="Home">
-    <div class="wrap-content">
+    <div class="wrap-content wrap-centered">
         <HomeContent/>
     </div>
     
