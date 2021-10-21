@@ -23,7 +23,11 @@ body,html {
 }
 
 body {
-    background:black;
+    background-color:black;
+    background-image:url(@/assets/bg.png);
+    background-size:100vh;
+    background-repeat:no-repeat;
+    background-position: bottom left;
     border:0 solid white;
     color:white;
     overflow-x: hidden;
@@ -141,8 +145,6 @@ a {
             width:75%;
             margin:0 auto;
             position:relative;
-            border-left:1px solid rgba(255,255,255,0.1);
-            border-right:1px solid rgba(255,255,255,0.1);
             padding-right:40px;
             padding-left: 80px;
 
@@ -152,8 +154,8 @@ a {
 
             .inline-wow {
                 position:absolute;
-                width:80%;
-                max-width:60%;
+                width:60%;
+                max-width:600px;
                 right:-15%;
                 top: -20%;
                 height:auto;
