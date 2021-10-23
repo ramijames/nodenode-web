@@ -12,6 +12,10 @@ html {
         font-size: 62.8%;
     } 
 
+    @media only screen and (max-width: 1200px) {
+        font-size: 76%;
+    } 
+
 }
 
 html 
@@ -123,15 +127,17 @@ a {
     align-content: stretch;
     justify-content: center;
     align-items: stretch;
-    padding:140px 0 160px;
 
     &.wrap-centered {
         height:100%;
-    }
+        overflow-x: hidden;
+        overflow-y:auto;
 
-    @media only screen and (max-width: 800px) {
-        padding:40px 0 160px;
-    } 
+        @media only screen and (max-width: 800px) {
+            height:auto;
+            overflow: clip;
+        } 
+    }
 
     section {
         width:100%;
@@ -139,10 +145,13 @@ a {
         flex-direction: row;
         align-content: center;
         justify-content: stretch;
-        padding:0 0 80px;
 
         &.centered {
             height:100%;
+
+            @media only screen and (max-width: 800px) {
+                overflow-x: hidden;
+            } 
         }
 
         .flex-wrap {
@@ -151,29 +160,32 @@ a {
             align-content: stretch;
             justify-content: center;
             align-items: stretch;
-            width:75%;
+            width:90%;
             margin:0 auto;
             position:relative;
-            padding-right:40px;
-            padding-left: 80px;
+            padding:80px 10% 160px;
+
+
+            @media only screen and (min-width: 1200px) {
+                width:85%;
+            } 
 
             @media only screen and (min-width: 1400px) {
-                width:65%;
+                width:75%;
             } 
 
             .inline-wow {
                 position:absolute;
                 width:60%;
                 max-width:600px;
-                right:-15%;
-                top: -20%;
+                right:5%;
+                top:0%;
                 height:auto;
                 z-index:-1;
                 opacity:0.45;
 
                 @media only screen and (max-width: 800px) {
-                    top: 10%;
-                    max-width:80%;
+                    display:none;
                 }
             }
 
@@ -198,7 +210,7 @@ a {
 
             @media only screen and (max-width: 800px) {
                 width:100%;
-                padding:40px 10% 160px;
+                padding:80px 10% 180px;
                 justify-content: flex-start;
             } 
 
@@ -294,11 +306,10 @@ a {
 }
 
 .sub-nav {
-    background:black;
+    background:rgba(0,0,0,0.8);
     display: flex;
     flex-direction: row;
     backdrop-filter: blur(34px);
-    overflow:hidden;
     justify-content:space-between;
     align-items:center;
     height:80px;
@@ -307,15 +318,17 @@ a {
     animation-name: sub-nav-grow;
     animation-duration: 0.15s;
     animation-timing-function: ease-in-out;
-    position:relative;
-    z-index:0;
+    position:fixed;
+    width:calc(100% - 132px);
+    z-index:10;
     font-family: Poppins;
 
     @media only screen and (max-width: 800px) {
         height:39px;
         padding:0 5px;
-        margin-left:40px;
+        margin-left:44px;
         justify-content: end;
+        width:calc(100% - 48px);
     } 
 
     .back {
@@ -338,6 +351,7 @@ a {
         display: flex;
         justify-content:space-between;
         align-items:center;
+        padding: 8px;
 
         @media only screen and (max-width: 800px) {
             align-items:right;

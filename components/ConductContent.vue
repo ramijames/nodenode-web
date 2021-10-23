@@ -1,6 +1,6 @@
 <template>
     <section id="ConductContent">
-        <div class="flex-wrap">
+        <div class="flex-wrap" style="padding-top:80px;">
             <Logo/>
 
             <img src="@/assets/wow1.gif" class="inline-wow">

@@ -61,6 +61,10 @@
             align-items:flex-start;
             width:25%;
 
+            @media only screen and (max-width: 800px) {
+                width:100%;
+            }
+
             p {
                 padding: 0 20px;
                 border-left:1px solid white;

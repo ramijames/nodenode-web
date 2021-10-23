@@ -87,11 +87,11 @@ nav.global {
     z-index:1;
     position: fixed;
     bottom:0;
-    border-bottom:0px solid white;
     width:100%;
     z-index:1000;
     flex-direction:row;
     height:86px;
+    overflow:hidden;
 
     @media only screen and (max-width: 800px) {
         display:block;
@@ -100,8 +100,7 @@ nav.global {
         width:100%;
         z-index:1;
         flex-direction:column;
-        height:160px;
-        border-bottom:0;
+        height:150px;
     }
 
     .nav-item {
