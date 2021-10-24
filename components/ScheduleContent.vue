@@ -1,7 +1,9 @@
 <template>
     <section id="ScheduleContent" class="content">
 
-            <img src="@/assets/9vcx.gif" class="inline-wow">
+            <video autoplay muted loop id="bg">
+              <source src="@/assets/bg-480p.mp4" type="video/mp4">
+            </video>
 
             <h1>Schedule a free consultation</h1>
             <h2>Let’s start with an introductory call.</h2>

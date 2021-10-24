@@ -1,7 +1,9 @@
 <template>
     <section id="ServicesContent" class="content">
 
-        <img src="@/assets/wow2.webp" class="inline-wow">
+        <video autoplay muted loop id="bg">
+          <source src="@/assets/bg-480p.mp4" type="video/mp4">
+        </video>
 
         <h1>Improvement services for open networks</h1>
         <h2>Currently, we are providing these services to qualifying projects.</h2>
@@ -74,6 +76,7 @@
 
                 h3 {
                     margin-bottom:0px;
+                    margin-top:0;
                 }
             }
 

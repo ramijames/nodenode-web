@@ -1,6 +1,10 @@
 <template>
     <section id="ConductContent" class="content">
 
+            <video autoplay muted loop id="bg">
+              <source src="@/assets/bg-480p.mp4" type="video/mp4">
+            </video>
+
             <h1>Code of Conduct</h1>
            <h2>These are our guiding principles, which dictate how we run the BP, and how we manage the larger project.</h2>
 

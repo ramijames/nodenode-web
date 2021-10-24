@@ -1,7 +1,10 @@
 <template>
     <section id="AboutContent" class="content">
 
-        <img src="@/assets/4Th1.gif" class="inline-wow">
+        <video autoplay muted loop id="bg">
+          <source src="@/assets/bg-480p.mp4" type="video/mp4">
+        </video>
+
         <h1>Contributors to the cause</h1>
         <h2>We are starting small and will be expanding the team of experienced minds as the project grows.</h2>
         <ul id="contributor-list">

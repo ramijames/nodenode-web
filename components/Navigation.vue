@@ -73,6 +73,11 @@ nav.bottom {
     height:86px;
     overflow:hidden;
     border-top:1px solid rgba(255,255,255,0.09);
+    background: rgba(255,255,255,0.06);
+
+    @media only screen and (max-width: 1000px) {
+        height:60px;
+    } 
 
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -88,7 +93,7 @@ nav.bottom {
 
         @media only screen and (max-width: 1000px) {
             flex-direction: column;
-            padding-left:0;
+            padding:10px 0;
         } 
 
         i {
@@ -99,7 +104,12 @@ nav.bottom {
             @media only screen and (max-width: 1000px) {
                 margin-right:0;
                 margin-bottom:4px;
+                height: 22px;
             } 
+
+            svg {
+                height:100%;
+            }
 
             svg, path {
                 stroke:white;
