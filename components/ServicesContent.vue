@@ -1,40 +1,37 @@
 <template>
-    <section id="ServicesContent">
-        <div class="flex-wrap">
-            <Logo/>
+    <section id="ServicesContent" class="content">
 
-            <img src="@/assets/wow2.webp" class="inline-wow">
+        <img src="@/assets/wow2.webp" class="inline-wow">
 
-            <h1>Improvement services for open networks</h1>
-            <h2>Currently, we are providing these services to qualifying projects.</h2>
+        <h1>Improvement services for open networks</h1>
+        <h2>Currently, we are providing these services to qualifying projects.</h2>
 
-            <ul id="service-list">
-                <li>
-                    <section>
-                        <h3><strong>Design</strong></h3>
-                        <p>Your UX is solid, but you need a more unique face. We are here to help unify the ecosystem into one which is visually exciting and understandable.</p>
-                    </section>
-                </li>
-                <li>
-                    <section>
-                        <h3><strong>Branding</strong></h3>
-                        <p>Your idea is amazing, but your project needs name recognition to succeed. A solid brand has been proven time and again to create loyalty. </p>
-                    </section>
-                </li>
-                <li>
-                    <section>
-                        <h3><strong>Experience</strong></h3>
-                        <p>Your code is great, but nobody can figure out what to do. We are here to help identify core functionality and create the shortest path to its use. Your user's experience should be pleasant and exhilarating.</p>
-                    </section>
-                </li>
-                <li>
-                    <section>
-                        <h3><strong>Market</strong></h3>
-                        <p>You're ready, but the market doesn't know it. We can help evangelize your cause, so that the users who need it most know about your digital revolution.</p>
-                    </section>
-                </li>
-            </ul>
-       </div>
+        <ul id="service-list">
+            <li>
+                <section>
+                    <h3><strong>Design</strong></h3>
+                    <p>Your UX is solid, but you need a more unique face. We are here to help unify the ecosystem into one which is visually exciting and understandable.</p>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <h3><strong>Branding</strong></h3>
+                    <p>Your idea is amazing, but your project needs name recognition to succeed. A solid brand has been proven time and again to create loyalty. </p>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <h3><strong>Experience</strong></h3>
+                    <p>Your code is great, but nobody can figure out what to do. We are here to help identify core functionality and create the shortest path to its use. Your user's experience should be pleasant and exhilarating.</p>
+                </section>
+            </li>
+            <li>
+                <section>
+                    <h3><strong>Market</strong></h3>
+                    <p>You're ready, but the market doesn't know it. We can help evangelize your cause, so that the users who need it most know about your digital revolution.</p>
+                </section>
+            </li>
+        </ul>
     </section>
 </template>
 

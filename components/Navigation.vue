@@ -1,5 +1,5 @@
 <template>    
-    <nav class="global">
+    <nav class="bottom">
         <NuxtLink class="nav-item" to="/schedule" id="schedule">
             <i>
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,30 +11,10 @@
 
             </i>
             <div>
-                <div class="title">Schedule a free consultation</div>
+                <div class="title">Schedule</div>
                 <div class="explanation">Does your project have the right stuff?</div>
             </div>
         </NuxtLink>
-        <!-- NuxtLink class="nav-item" to="/initiative" id="initiative">
-            <i>
-                <svg width="34" height="36" viewBox="0 0 34 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect y="26" width="30" height="10" fill="black" fill-opacity="0.5"/>
-                    <path d="M0 27C0 26.4477 0.447715 26 1 26H29C29.5523 26 30 26.4477 30 27V29H0V27Z" fill="black"/>
-                    <mask id="path-3-outside-1" maskUnits="userSpaceOnUse" x="3.35669" y="-0.625122" width="31" height="33" fill="black">
-                    <rect fill="white" x="3.35669" y="-0.625122" width="31" height="33"/>
-                    <path d="M15.8227 3.3748C16.3579 2.40854 17.5589 2.08696 18.5053 2.65653L30.5262 9.89107C31.4726 10.4606 31.806 11.7057 31.2708 12.6719L22.0601 29.3017C21.525 30.2679 20.3239 30.5895 19.3775 30.02L7.35662 22.7854C6.41023 22.2158 6.07687 20.9708 6.61205 20.0046L15.8227 3.3748Z"/>
-                    </mask>
-                    <path d="M15.8227 3.3748C16.3579 2.40854 17.5589 2.08696 18.5053 2.65653L30.5262 9.89107C31.4726 10.4606 31.806 11.7057 31.2708 12.6719L22.0601 29.3017C21.525 30.2679 20.3239 30.5895 19.3775 30.02L7.35662 22.7854C6.41023 22.2158 6.07687 20.9708 6.61205 20.0046L15.8227 3.3748Z" fill="black"/>
-                    <path d="M7.35662 22.7854L8.38792 21.0718L7.35662 22.7854ZM6.61205 20.0046L8.36162 20.9736L6.61205 20.0046ZM22.0601 29.3017L20.3106 28.3327L22.0601 29.3017ZM19.3775 30.02L18.3462 31.7336L19.3775 30.02ZM30.5262 9.89107L29.4949 11.6047L30.5262 9.89107ZM31.2708 12.6719L33.0204 13.641L31.2708 12.6719ZM18.5053 2.65653L19.5366 0.942933L18.5053 2.65653ZM15.8227 3.3748L14.0731 2.40578L15.8227 3.3748ZM17.474 4.37013L29.4949 11.6047L31.5575 8.17747L19.5366 0.942933L17.474 4.37013ZM29.5212 11.7029L20.3106 28.3327L23.8097 30.2707L33.0204 13.641L29.5212 11.7029ZM20.4088 28.3064L8.38792 21.0718L6.32533 24.499L18.3462 31.7336L20.4088 28.3064ZM8.36162 20.9736L17.5723 4.34383L14.0731 2.40578L4.86248 19.0355L8.36162 20.9736ZM8.38792 21.0718C8.38483 21.07 8.36962 21.0598 8.36069 21.0265C8.35177 20.9931 8.35987 20.9767 8.36162 20.9736L4.86248 19.0355C3.80568 20.9436 4.45651 23.3743 6.32533 24.499L8.38792 21.0718ZM20.3106 28.3327C20.3088 28.3359 20.312 28.3294 20.3228 28.3211C20.3324 28.3137 20.3437 28.308 20.3558 28.3048C20.3678 28.3016 20.3804 28.3008 20.3925 28.3024C20.4059 28.3043 20.412 28.3083 20.4088 28.3064L18.3462 31.7336C20.2632 32.8872 22.7257 32.2279 23.8097 30.2707L20.3106 28.3327ZM29.4949 11.6047C29.498 11.6065 29.5132 11.6167 29.5221 11.65C29.5311 11.6834 29.523 11.6998 29.5212 11.7029L33.0204 13.641C34.0772 11.7329 33.4263 9.30218 31.5575 8.17747L29.4949 11.6047ZM19.5366 0.942933C17.6197 -0.210741 15.1571 0.448596 14.0731 2.40578L17.5723 4.34383C17.5741 4.3406 17.5708 4.34706 17.5601 4.35537C17.5504 4.36284 17.5391 4.36846 17.5271 4.37168C17.5151 4.3749 17.5024 4.3757 17.4903 4.37404C17.4769 4.3722 17.4709 4.36823 17.474 4.37013L19.5366 0.942933Z" fill="white" mask="url(#path-3-outside-1)"/>
-                    <path d="M15.9404 14.8919L16.2544 17.1071C16.3463 17.7553 17.026 18.1419 17.6301 17.8894L24.1935 15.1468" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-
-            </i>
-            <div>
-                <div class="title">Support the initiative</div>
-                <div class="explanation">Your votes help fund access</div>
-            </div>
-        </NuxtLink -->
         <NuxtLink class="nav-item" to="/services" id="services">
             <i>
                 <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +27,7 @@
 
             </i>
             <div>
-                <div class="title">Hear about how we help you</div>
+                <div class="title">Services</div>
                 <div class="explanation">Design, UX, product, strategy, and marketing</div>
             </div>
         </NuxtLink>
@@ -59,7 +39,7 @@
 
             </i>
             <div>
-                <div class="title">Nodenode contributors</div>
+                <div class="title">Contributors</div>
                 <div class="explanation">We’re really excited to meet you all</div>
             </div>
         </NuxtLink>
@@ -79,9 +59,9 @@
 
 @import "@/assets/scss/_variables.scss";
 
-nav.global {
 
-    background:white;
+nav.bottom {
+    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     z-index:1;
@@ -92,29 +72,23 @@ nav.global {
     flex-direction:row;
     height:86px;
     overflow:hidden;
+    border-top:1px solid rgba(255,255,255,0.09);
 
-    @media only screen and (max-width: 800px) {
-        display:block;
-        position: fixed;
-        bottom:0;
-        width:100%;
-        z-index:1;
-        flex-direction:column;
-        height:150px;
-    }
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 
     .nav-item {
         width:33.3333%;
-        padding:$padding-med $padding-big;
+        padding:$padding-med 0 $padding-med 20px;
         transition: all .12s ease-in-out;
         display: flex;
         flex-direction: row;
         align-items:center;
         cursor: pointer;
 
-        @media only screen and (max-width: 800px) {
-            width:100%;
-            padding: 8px $padding-med;
+        @media only screen and (max-width: 1000px) {
+            flex-direction: column;
+            padding-left:0;
         } 
 
         i {
@@ -122,8 +96,13 @@ nav.global {
             margin-right:$padding-med;
             height: 34px;
 
-            svg {
-                stroke:black;
+            @media only screen and (max-width: 1000px) {
+                margin-right:0;
+                margin-bottom:4px;
+            } 
+
+            svg, path {
+                stroke:white;
             }
             
         }
@@ -137,13 +116,7 @@ nav.global {
                 font-style: normal;
                 font-size: 14px;
                 line-height: 20px;
-                color: $black;
-
-                @media only screen and (max-width: 1200px) {
-                    font-size: 12px;
-                    line-height: 14px;
-                    margin-bottom:2px;
-                } 
+                color: white;
             }
 
             .explanation {
@@ -152,33 +125,34 @@ nav.global {
                 font-weight: normal;
                 font-size: 12px;
                 line-height: 14px;
-                color: $black;
+                color: white;
                 opacity: 0.5;
 
-                @media only screen and (max-width: 1200px) {
-                    font-size: 11px;
-                    line-height: 13px;
+                @media only screen and (max-width: 1000px) {
+                    display:none;
                 } 
             }
         }
 
         &:hover, .selected, &.nuxt-link-active {
-            background:rgba(0,0,0,1);
+            background:rgba(255,255,255,1);
 
             .title, .explanation { 
-                color:white;
+                color:black;
             }
             
             svg, path {
-                stroke:white;
+                stroke:black;
             }
             
         }
 
         &.nuxt-link-active {
-            background:rgba(0,0,0,0.9);
+            background:rgba(255,255,255,1);
         }
     }
 }
+
+
 
 </style>

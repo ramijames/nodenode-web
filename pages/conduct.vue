@@ -1,17 +1,17 @@
 <template>
   <div id="Conduct">
-    <div class="wrap-content">
-        <ConductContent/>
-    </div>
-    
+    <Mainnav/>
+    <ConductContent/>
     <Navigation/>
   </div>
 </template>
 
 <style lang="scss">
     #Conduct {
-        display:flex;
-        flex-direction:column;
+        width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 </style>

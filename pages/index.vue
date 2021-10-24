@@ -1,17 +1,17 @@
 <template>
   <div id="Home">
-    <div class="wrap-content wrap-centered">
-        <HomeContent/>
-    </div>
-    
+    <Mainnav/>
+    <HomeContent/>
     <Navigation/>
   </div>
 </template>
 
 <style lang="scss">
     #Home {
-        display:flex;
-        flex-direction:column;
+        width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 </style>

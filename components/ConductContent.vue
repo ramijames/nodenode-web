@@ -1,9 +1,5 @@
 <template>
-    <section id="ConductContent">
-        <div class="flex-wrap" style="padding-top:80px;">
-            <Logo/>
-
-            <img src="@/assets/wow1.gif" class="inline-wow">
+    <section id="ConductContent" class="content">
 
             <h1>Code of Conduct</h1>
            <h2>These are our guiding principles, which dictate how we run the BP, and how we manage the larger project.</h2>
@@ -82,16 +78,12 @@
            <h3>Submit your project</h3>
            <p>If you believe that your project fulfills these criteria, we should begin with a <nuxt-link to="/schedule">discussion</nuxt-link>.</p>
 
-       </div>
     </section>
 </template>
 
 <style lang="scss">
     
 #ConductContent {
-        overflow-y:auto;
-        padding-top: 20px;
-        height:100%;
 
         svg.map {
             width: 100%;
