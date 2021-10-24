@@ -52,6 +52,10 @@
         span {
             font-size:75%;
             margin-right:20px;
+
+            @media only screen and (max-width: 800px) {
+                display:none;
+            } 
         }
     }
 
