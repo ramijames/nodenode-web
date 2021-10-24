@@ -37,7 +37,6 @@
         border-radius: 4px;
         -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
-        box-shadow:0 10px 10px rgba(0,0,0,0.32);
 
         &:hover {
             background: rgba(255,255,255,0.16);
