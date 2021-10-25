@@ -73,7 +73,7 @@ nav.bottom {
     height:86px;
     overflow:hidden;
     border-top:1px solid rgba(255,255,255,0.09);
-    background: rgba(255,255,255,0.06);
+    background: rgba(0,0,0,0.44);
 
     @media only screen and (max-width: 1000px) {
         height:60px;

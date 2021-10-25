@@ -49,7 +49,7 @@ export default {
     '@nuxtjs/google-gtag',
   ],
   'google-gtag': {
-    id: 'G-69G59KK0MM',
+    id: 'G-YCPPDZPY1G',
     config: {
       anonymize_ip: true, // anonymize IP 
       send_page_view: false, // might be necessary to avoid duplicated page track on page reload
