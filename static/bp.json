@@ -53,8 +53,8 @@
         "longitude":"-77.6825454"
       },
       "node_type":"full",
-      "api_endpoint":"http://telos.nodenode.org",
-      "ssl_endpoint":"https://telos.nondenode.org"
+      "api_endpoint":"https://api.nodenode.org",
+      "ssl_endpoint":"https://api.nondenode.org"
     },
     {
       "location":{
@@ -64,8 +64,8 @@
         "longitude":"-0.2416796"
       },
       "node_type":"query",
-      "api_endpoint":"http://telos.nodenode.org",
-      "ssl_endpoint":"https://telos.nondenode.org"
+      "api_endpoint":"https://api.nodenode.org",
+      "ssl_endpoint":"https://api.nondenode.org"
     }
   ]
 }
